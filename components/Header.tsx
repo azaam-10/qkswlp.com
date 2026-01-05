@@ -76,7 +76,7 @@ const Header: React.FC<HeaderProps> = ({ username, invitationCode, balance }) =>
           <h3 className="text-sm font-medium opacity-90 mb-1">My Account</h3>
           <div className="flex items-baseline gap-2">
             <span className="text-xs font-semibold">USDT</span>
-            <span className="text-3xl font-bold tracking-tight">{balance}</span>
+            <span className="text-2xl font-bold tracking-tight">{balance}</span>
           </div>
         </div>
         <div className="flex gap-4">
